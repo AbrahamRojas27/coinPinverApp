@@ -1,0 +1,1 @@
+import{a,j as e,f as c}from"./index-4d84c226.js";const s="https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&sparkline=false";function r(){return a("coinPriceData",()=>c(s)),e.jsx("section",{className:"coin-price-container",children:e.jsx("article",{className:"coin-price-slide"})})}export{r as default};
